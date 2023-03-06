@@ -1,0 +1,34 @@
+CASTRO WRITEUP:
+Castro is a Computer Scripting language which is specifically built for scripting and automating computer tasks. Because of this, it doesnt have input, variable changing or setting (it has some inbuilt const variables like MOUSE_POS and PS_INF).
+
+BY DEFAULT:
+By default there is only scripting and one std output function, no input, no variable changing or setting, it is a dsl.
+
+INBUILT COMMANDS
+
+moveto(100, 200, 1.5) - Moves cursor to position
+dragto(100, 200, 1.5) - Moves the cursor to the position but holds the left mouse, drags.
+sim("ctrl") - Simulates pressing down a key
+simhk("ctrl", "shift", "s") - Simulates a hotkey
+opentab("https://google.com") - Opens a tab, or browser.
+wait(2) - Waits 2 seconds
+lmb(1) - Presses the left mouse button once
+rmb(1) - Presses the right mouse button once
+mmb(1) - Presses the middle mouse button once
+scroll(200) - Scrolls 200 units
+locate("img.png") - Locates image on screen and hovers over it
+locate_click("img.png") - Locates image on screen and clicks it
+type("Hello World", 0.1) - Types out Hello World, using keyboard emulation
+pass("echo Hello!") - Passes commands to the cmd line
+displayf("Hello, World!")- This displays a value to the std output
+msg("Hello!") - Will send a system message
+help() - Gives u help 
+version() - Will output the version of castro you're running
+exit() - Will unplug the program, abruptly exit with no time code or anything
+
+INBUILT VARIABLES (you cant set any variables so there are some inbuilt ones)
+
+MOUSE_POS - the current mouse position
+PS_INF - Psuedo Infinite number used in situations where you want somethign to keep continuing
+BOUNDS - The bounds of the screen
+

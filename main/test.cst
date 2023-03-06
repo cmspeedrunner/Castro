@@ -1,0 +1,3 @@
+displayf("Mouse position = ", MOUSE_POS)
+displayf("Kinda infinite = ", PS_INF)
+displayf("Screen Res = ", BOUNDS)

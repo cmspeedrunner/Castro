@@ -1,0 +1,3 @@
+Because castro is so loosely typed, anything that isnt a function, or command, is seen as a comment, so this is a comment
+displayf("Hello, World!") I mean, you can test this, this will run.
+This fluidity can be good and bad, idk. Its just a little con/pro depending on how you look at it

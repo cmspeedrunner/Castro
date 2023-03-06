@@ -21,13 +21,19 @@ For our first program, lets go for the standard hello world. Now, Castro is a co
 There it is, the first program, just run this and see if it is sucessful.<br>
 In this program `display`, obviously means to display some data, and the `f` after `display` to make it `displayf` means formatted. Essentially, what we are doing here is just displaying a formatted string.<br>
 
-#### Variables:
+#### Note about Variables:
 There are no variables in Castro, nor is there input, i was reluctant to add std output aswell. But, there are 3, predefined Const values, that can be used freely.<br>
 `MOUSE_POS` Is one of these, stores the mouse pos and updates every frame.<br>
 `PS_INF` Is another, this is a pseudo infinite number, used if you want something to do something forever but dont want to add 100 9's in your code, just ad 'PS_INF'
 `BOUNDS` Is the last, this stores the bounds, or resolution of your screen.
 again, as another little program, we can display these values so we can get an understanding of how they work, lets display them all.<br>
-`displayf("Mouse position = ", MOUSE_POS)
-displayf("Kinda infinite = ", PS_INF)
-displayf("Screen Res = ", BOUNDS)`
-this little program should display all these values 
+`displayf("Mouse position = ", MOUSE_POS)`<br>
+`displayf("Kinda infinite = ", PS_INF)`<br>
+`displayf("Screen Res = ", BOUNDS)`<br>
+this little program should display all these values, PS_INF is quite large, so may take 0.03s longer but you shouldnt notice (unless i messed up, oh god i messed up probably)<br>
+
+#### Everything else
+
+You will find some of my personal examples in the `Castro/examples` folder. This is not really a programming language and some of the heavy lifting does rely on pythons `eval` function. But, evaluating in this case is not the main point of the dsl, it just parses the data for me.
+Thank you for reading. This will most likely not get too many updates but y'know we will see how it goes.
+Thanks.

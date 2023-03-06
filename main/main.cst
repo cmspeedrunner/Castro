@@ -1,4 +1,0 @@
-wait(6)
-lmb(PS_INF)
-wait(100)
-exit()

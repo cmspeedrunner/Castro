@@ -34,6 +34,6 @@ this little program should display all these values, PS_INF is quite large, so m
 
 #### Everything else
 
-You will find some of my personal examples in the `Castro/examples` folder. This is not really a programming language and some of the heavy lifting does rely on pythons `eval` function. But, evaluating in this case is not the main point of the dsl, it just parses the data for me.
+You will find some of my personal examples in the `Castro/examples` folder and every command listed to what it does in wup.txt. This is not really a programming language and some of the heavy lifting does rely on pythons `eval` function. But, evaluating in this case is not the main point of the dsl, it just parses the data for me.
 Thank you for reading. This will most likely not get too many updates but y'know we will see how it goes.
 Thanks.

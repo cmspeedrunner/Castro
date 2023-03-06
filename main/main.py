@@ -109,7 +109,7 @@ def anal():
     
             
     except SyntaxError as e:
-        print("\033[31m\033[1mERROR FOUND IN FILE: "+fl+"\n                     "+"^"*len(fl))
+        print("\033[31m\033[1mSYNTAX ERROR FOUND IN FILE: "+fl+"\n                     "+"^"*len(fl))
         print(e.args[0]+"\n")
         print("LN: "+str(e.lineno)+"\nCOL: "+str(e.end_offset))
         print("\033[31m\033[1m"+e.text)
@@ -118,7 +118,7 @@ def anal():
         print("\033[0m", end="")
         exit()
     except TimeoutError as e:
-        print("\033[31m\033[1mERROR FOUND IN FILE: "+fl+"\n                     "+"^"*len(fl))
+        print("\033[31m\033[1mT.O ERROR FOUND IN FILE: "+fl+"\n                     "+"^"*len(fl))
         print(e.args[0]+"\n")
         print("\033[31m\033[1m"+e.winerror)
         print("^"*len(e.winerror))
@@ -126,13 +126,13 @@ def anal():
         print("\033[0m", end="")
         exit()
     except TypeError as e:
-        print("\033[31m\033[1mERROR FOUND IN FILE: "+fl+"\n                     "+"^"*len(fl))
+        print("\033[31m\033[1mTYPE ERROR FOUND IN FILE: "+fl+"\n                     "+"^"*len(fl))
         print(e.args[0]+"\n")
         print("\033[35m\033[3mHelp: "+str(e.args))
         print("\033[0m", end="")
         exit()
     except NameError as e:
-        print("\033[31m\033[1mERROR FOUND IN FILE: "+fl+"\n                     "+"^"*len(fl))
+        print("\033[31m\033[1mNAME ERROR FOUND IN FILE: "+fl+"\n                     "+"^"*len(fl))
         print(e.args[0]+"\n")
         print("\033[31m\033[1m"+e.name)
         print("^"*len(e.name))
